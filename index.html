@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandana D | Software Developer Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Custom Styling */
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f4f4f9;
+            padding: 0 15px;
+            transition: background 0.3s ease-in-out;
+        }
+        .hero:hover {
+            background: #caedfe;
+        }
+        .hero img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .hero img:hover {
+            transform: scale(1.5);
+        }
+        .hero-content h1 {
+            font-size: 2.6rem;
+            color: #090606;
+            margin-bottom: 10px;
+        }
+        .hero-content p {
+            font-size: 1.8rem;
+            color: #5b4d4d;
+            margin-bottom: 20px;
+        }
+        .hero nav a {
+            margin-right: 15px;
+            font-size: 1.1rem;
+            color: #5eb7e0;
+            text-decoration: none;
+        }
+        .hero nav a:hover {
+            color: #5d94cf;
+            text-decoration: underline;
+        }
+
+        /* Hover Effects */
+        section {
+            padding: 60px 0;
+            transition: transform 0.3s fade-in-out;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Profile Links */
+        .profile-links img {
+            width: 40px;
+            height: 40px;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+        .profile-links img:hover {
+            transform: scale(1.2);
+        }
+
+        footer {
+            background-color: #333;
+            color: rgb(139, 199, 230);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .card-custom {
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(34, 20, 20, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-custom:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .card-body p {
+            color: #2334c8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero text-center">
+        <div>
+            <img src="Nandy_profile.jpg" alt="Profile Picture">
+        </div>
+        <div class="hero-content">
+            <h1>Nandana D</h1>
+            <p>Software Developer | AI Enthusiast | Innovator</p>
+            <div class="hero-contact">
+                <p><strong>Email:</strong> nandanadhandapani.ai@gmail.com</p>
+                <p><strong>Phone:</strong> +91 9847490995</p>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#profiles">Profiles</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+            I am Nandana D, a 3rd-year BTech student in Artificial Intelligence and Data Science. I’m passionate about programming, AI, and solving real-world problems. My skills include Python, data analytics, and Intelligent Document Processing. I enjoy working on innovative projects, participating in hackathons, and continuously learning to grow as a developer. Let’s connect and collaborate!
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-custom">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Programming Languages</h5>
+                            <div class="skills-images">
+                                <img src="python.jpeg" alt="Python" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <img src="cpp.png" alt="Java" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <img src="java.png" alt="C++" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Web Development</h5>
+                            <div class="skills-images">
+                                <img src="html.png" alt="HTML" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <img src="css.png" alt="CSS" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <img src="js.png" alt="JavaScript" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <!-- <img src="images/react.png" alt="React.js" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card card-custom">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Backend</h5>
+                            <div class="skills-images">
+                                <img src="django.jpeg" alt="Django" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <!-- <img src="images/.png" alt="Node.js" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mt-3">
+                    <div class="card card-custom">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Database Management</h5>
+                            <div class="skills-images">
+                                <img src="postgresql.png" alt="PostgreSQL" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <img src="mysql.png" alt="MySQL" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mt-3">
+                    <div class="card card-custom">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">DevOps</h5>
+                            <div class="skills-images">
+                                <!-- <img src="images/docker.png" alt="Docker" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;"> -->
+                                <img src="git.png" alt="Git" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <img src="github.png" alt="GitHub" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- AI & Machine Learning -->
+                <div class="col-md-4 mt-3">
+                    <div class="card card-custom">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">AI & Machine Learning</h5>
+                            <div class="skills-images">
+                                <img src="tensorflow.png" alt="TensorFlow" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <img src="spacy.jpeg" alt="SpaCy" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <!-- <img src="images/bert.png" alt="BERT" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;">
+                                <img src="images/roberta.png" alt="RoBERTa" class="img-fluid" style="width: 50px; height: 50px; margin: 5px;"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profiles Section -->
+    <section id="profiles" class="container">
+        <h2 class="section-title">Profiles</h2>
+        <div class="profile-links text-center">
+            <a href="https://leetcode.com/u/nandana__dhandapani/" target="_blank">
+                <img src="lc_logo.png" alt="Leetcode" title="Leetcode">
+            </a>
+            <a href="https://github.com/NandanaNandy" target="_blank">
+                <img src="git_logo.png" alt="GitHub" title="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/nandanad1594/" target="_blank">
+                <img src="linkedin_logo.png" alt="LinkedIn" title="LinkedIn">
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card card-custom">
+                        <div class="card-body">
+                            <h5 class="card-title">InsightVerify</h5>
+                            <h7 class="card-text">Project Lead</h7>
+                            <p></p>
+                            <p class="card-text">Automated multilingual data extraction and verification system for DRDO RAC recruitment assessments using OCR and AI models.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card card-custom">
+                        <div class="card-body">
+                            <h5 class="card-title">Cricket Analytics System</h5>
+                            <p class="card-text">Analyzes ball-by-ball cricket data to uncover strategic patterns using clustering algorithms and data visualizations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card card-custom">
+                        <div class="card-body">
+                            <h5 class="card-title">NeuroEdBloom</h5>
+                            <h7 class="card-text">Project Lead</h7>
+                            <p></p>
+                            <p class="card-text">Developed a solution for automating question paper processing, integrating Bloom's Taxonomy for cognitive complexity classification.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 mb-4">
+                    <div class="card card-custom">
+                        <div class="card-body">
+                            <h5 class="card-title">SecureLock</h5>
+                            <p class="card-text">Implemented an N-ary tree-based locking mechanism with threads for multi-query synchronization.</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="container">
+        <h2 class="section-title">Achievements</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">Hackathon Winner</h5>
+                        <p class="card-text">1st Prize Winner in the Queen Bee hackathon at karpagam Institute of Technology, demonstrating innovative problem-solving skills.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title">Smart India Hackathon 2024 (SIH)</h5>
+                        <p class="card-text">Finalist at Vivekananda Institute of Professional Studies Technical Campus, New Delhi,  competing with top teams nationwide to present innovative solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed by Nandana.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
