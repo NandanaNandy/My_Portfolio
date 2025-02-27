@@ -58,7 +58,7 @@
     width: 180px; /* Slightly larger profile picture */
     height: 180px;
     margin-right: 20px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
 }
 .hero-content h1 {
     font-size: 3rem; /* Increased font size */
