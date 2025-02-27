@@ -55,8 +55,8 @@
 }
 .hero img {
     border-radius: 50%;
-    width: 150px; /* Slightly larger profile picture */
-    height: 150px;
+    width: 130px; /* Slightly larger profile picture */
+    height: 130px;
     margin-right: 20px;
     transition: transform 0.1s ease-in-out;
 }
